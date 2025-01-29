@@ -1,0 +1,20 @@
+
+
+.filterProducts {
+    display: flex;
+}
+
+.filter {
+    width: 20vw;
+    padding: 10px;
+}
+
+.filterCollapse {
+    display: none;
+}
+
+@media (max-width: 768px) {
+    .filter {
+        display: none;
+    }
+}
