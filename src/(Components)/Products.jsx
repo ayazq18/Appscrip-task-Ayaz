@@ -14,7 +14,7 @@ const Products = async () => {
                         <div className={styles.cardImg}>
                             <Image
                                 src={image}
-                                alt="product"
+                                alt="Product Image"
                                 width={200}
                                 height={200}
                             />
