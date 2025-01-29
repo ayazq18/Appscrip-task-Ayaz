@@ -9,7 +9,6 @@ function SideBar() {
 
   return (
     <div>
-
       <div className={styles.filter}>
           <Filter />
         </div>

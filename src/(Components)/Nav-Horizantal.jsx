@@ -6,10 +6,10 @@ import styles from '../(Styles)/navHorizontal.module.css'
 function NavHorizontal() {
     const [isDrawerOpen, setIsDrawerOpen] = useState(false);
 
-    // Handler to toggle drawer visibility
     const toggleDrawer = () => {
         setIsDrawerOpen(!isDrawerOpen);
     };
+    
     return (
         <div className={styles.main}>
 
